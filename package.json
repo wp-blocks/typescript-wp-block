@@ -1,0 +1,56 @@
+{
+  "name": "typescipt-wp-block",
+  "description": "boilerplate wordpress block in typescript",
+  "version": "0.0.1",
+  "author": "codekraft",
+  "license": "GPL-2.0-or-later",
+  "main": "./build/boilerplate.js",
+  "typings": "./build/main.d.ts",
+  "files": [
+    "build/*",
+    "typescript-wp-block.php",
+    "LICENSE.md",
+    "readme.txt"
+  ],
+  "scripts": {
+    "packages-update": "wp-scripts packages-update",
+    "build": "wp-scripts build",
+    "build:types": "tsc --project tsconfig.types.json",
+    "build:withTypes": "npm run build && npm run build:types",
+    "start": "wp-scripts start",
+    "format": "wp-scripts format /src",
+    "lint:css": "wp-scripts lint-style /src",
+    "lint:js": "wp-scripts lint-js /src",
+    "wp-env:start": "wp-env start",
+    "wp-env:stop": "wp-env stop",
+    "wp-env:destroy": "wp-env destroy",
+    "test": "jest --silent=false --coverage",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-typescript": "^7.18.6",
+    "@jest/globals": "^29.3.1",
+    "@types/expect-puppeteer": "^5.0.2",
+    "@types/jest": "^29.2.5",
+    "@types/jest-environment-puppeteer": "^5.0.3",
+    "@types/node": "^18.11.18",
+    "@types/puppeteer": "^7.0.4",
+    "@types/wordpress__block-editor": "^11.0.1",
+    "@wordpress/block-editor": "^11.1.0",
+    "@wordpress/e2e-test-utils": "^9.1.0",
+    "@wordpress/e2e-tests": "^6.1.0",
+    "@wordpress/jest-preset-default": "^10.5.0",
+    "@wordpress/scripts": "^25.0.0",
+    "babel-jest": "^29.3.1",
+    "jest-puppeteer": "^6.2.0",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.9.0"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ]
+}
