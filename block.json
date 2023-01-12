@@ -3,7 +3,10 @@
   "name": "block/boilerplate",
   "title": "boilerplate",
   "description": "A wp-block boilerplate in typescript",
-  "keywords": [ "wp-block", "boilerplate" ],
+  "keywords": [
+    "wp-block",
+    "boilerplate"
+  ],
   "category": "media",
   "editorScript": "file:./build/boilerplate.js",
   "editorStyle": "file:./build/boilerplate.css",

@@ -34,7 +34,6 @@
     // Removing this would place the .d.ts files
     // next to the .js files
     "outDir": "build",
-    "rootDir": "src",
     "typeRoots": [
       "./node_modules/@types",
       "./types"
@@ -45,5 +44,6 @@
       "expect-puppeteer"
     ]
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "block.json"],
+  "exclude": ["build","coverage"]
 }

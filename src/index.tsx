@@ -9,12 +9,12 @@ import Edit from './edit';
 import Save from './save';
 
 /** Block settings */
-import blockConfig from './block.json';
+import blockConfig from '../block.json';
 
-const jsondata = blockConfig as Record< string, any >;
+const jsonData = blockConfig as Record< string, any >;
 
-registerBlockType( jsondata.name, {
-	...jsondata,
+registerBlockType( jsonData.name, {
+	...jsonData,
 	/**
 	 * @see ./edit.js
 	 */
