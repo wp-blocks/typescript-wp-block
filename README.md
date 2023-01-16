@@ -20,16 +20,17 @@ clone the project into your plugin folder:
 ```shell
 git clone https://github.com/erikyo/typescript-wp-block.git
 ```
-Then Replace in the boilerplate folder every occurrence of word "boilerplate" with your own plugin name
-install with npm.
+Then: 
+- Rename the plugin folder with the chosen plugin name slug
+- Do the same for the [typescript-wp-block.php](typescript-wp-block.php) file with the same string as the directory
+- Replace every occurrence of word "boilerplate" with your own plugin name.
+- Once the above points are completed, install with npm
 
 ```shell
 npm install
 ```
 
-and you are 
-
-> 🎉 Done!
+and you are 🎉 Done!
 
 ---
 

@@ -1,6 +1,6 @@
 {
-  "name": "typescipt-wp-block",
-  "description": "boilerplate wordpress block in typescript",
+  "name": "boilerplate",
+  "description": "boilerplate wordpress block",
   "version": "0.0.1",
   "author": "codekraft",
   "license": "GPL-2.0-or-later",
