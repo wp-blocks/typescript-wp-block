@@ -1,7 +1,8 @@
 import './style/style.scss';
 
 import { useBlockProps } from '@wordpress/block-editor';
-import { PropertiesSave } from './types';
+import { BlockAttributes, BlockSaveProps } from '@wordpress/blocks';
+import { TextDef } from './types';
 
 /**
  * The save function defines the way in which the different attributes should be combined into the final markup, which is then serialized into post_content.
@@ -10,7 +11,7 @@ import { PropertiesSave } from './types';
  * @param  props.attributes - the block attributes
  * @function Object() { [native code] }
  */
-function Save( { attributes }: PropertiesSave ): JSX.Element {
+function Save( { attributes }: BlockSaveProps< TextDef > ): JSX.Element {
 	const blockProps = useBlockProps.save( {
 		className: 'block-boilerplate',
 	} );
