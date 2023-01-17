@@ -1,7 +1,7 @@
 import './style/style.scss';
 
 import { useBlockProps } from '@wordpress/block-editor';
-import { BlockAttributes, BlockSaveProps } from '@wordpress/blocks';
+import { BlockSaveProps } from '@wordpress/blocks';
 import { TextDef } from './types';
 
 /**
