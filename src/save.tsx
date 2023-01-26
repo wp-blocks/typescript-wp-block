@@ -1,3 +1,4 @@
+/* adds the frontend styles to bundle */
 import './style/style.scss';
 
 import { useBlockProps } from '@wordpress/block-editor';

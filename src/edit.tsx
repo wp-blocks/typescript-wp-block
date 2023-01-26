@@ -18,7 +18,7 @@ export default function Edit( {
 	return (
 		<div { ...useBlockProps() }>
 			<TextControl
-				label={ __( 'Message', 'Strings only' ) }
+				label={ __( 'Message', 'boilerplate' ) }
 				value={ attributes.message }
 				onChange={ ( val ) =>
 					setAttributes( { message: val.toString() } )

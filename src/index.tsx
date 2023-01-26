@@ -8,11 +8,10 @@ import Edit from './edit';
 /** the save function */
 import Save from './save';
 
-/** Block settings */
+/* Block settings */
 import blockConfig from '../block.json';
 
-const jsonData = blockConfig as Record< string, any >;
-
+/** Registering the block with the name of the block and the attributes of the block. */
 registerBlockType( jsonData.name, {
 	...jsonData,
 	/**
