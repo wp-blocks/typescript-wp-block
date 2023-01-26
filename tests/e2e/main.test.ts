@@ -2,7 +2,6 @@
  * Load utilities from the e2e-test-utils package.
  */
 import { visitAdminPage } from '@wordpress/e2e-test-utils';
-import 'expect-puppeteer';
 
 // Name of the test suite.
 describe( 'Hello World', () => {

@@ -1,5 +1,3 @@
-import { describe, expect, test } from '@jest/globals';
-
 /* JEST testing */
 describe( 'boilerplate test', () => {
 	it( 'it can make simple additions', () => {
