@@ -4,7 +4,7 @@ const path = require( 'path' );
 module.exports = {
 	...defaultConfig,
 	entry: {
-		boilerplate: path.resolve( process.cwd(), `src/index.tsx` ),
+		'boilerplate': path.resolve( process.cwd(), `src/index.tsx` ),
 	},
   devtool: 'inline-source-map',
 	module: {
