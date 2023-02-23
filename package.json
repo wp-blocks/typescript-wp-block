@@ -3,7 +3,7 @@
 	"description": "boilerplate wordpress block",
 	"version": "0.0.1",
 	"contributors": [
-		"codekraft",
+		"Erik Golinelli <erik@codekraft.it> (https://codekraft.it/)",
 		"John Hooks <bitmachina@outlook.com> (https://johnhooks.io/)"
 	],
   "homepage": "https://github.com/erikyo/typescript-wp-block#readme",
