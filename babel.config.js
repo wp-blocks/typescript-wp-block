@@ -1,11 +1,11 @@
-/** @type {import('@babel/core').ConfigFunction} */
+/** @type {import("@babel/core").ConfigFunction} */
 module.exports = ( api ) => {
 	api.cache( true );
 
 	return {
 		presets: [
-      '@babel/preset-typescript',
-      '@wordpress/babel-preset-default',
+			'@babel/preset-typescript',
+			'@wordpress/babel-preset-default',
 		],
 	};
 };

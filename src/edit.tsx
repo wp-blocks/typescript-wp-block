@@ -1,7 +1,9 @@
-import { __ } from '@wordpress/i18n';
-import { TextControl } from '@wordpress/components';
 import { useBlockProps } from '@wordpress/block-editor';
-import { BlockAttributes, BlockEditProps } from '@wordpress/blocks';
+import type { BlockEditProps } from '@wordpress/blocks';
+import { TextControl } from '@wordpress/components';
+import { __ } from '@wordpress/i18n';
+
+import { TextDef } from './types';
 
 /**
  * The edit function describes the structure of your block in the context of the editor.
@@ -14,7 +16,7 @@ import { BlockAttributes, BlockEditProps } from '@wordpress/blocks';
 export default function Edit( {
 	attributes,
 	setAttributes,
-}: BlockEditProps< BlockAttributes > ): JSX.Element {
+}: BlockEditProps< TextDef > ): JSX.Element {
 	return (
 		<div { ...useBlockProps() }>
 			<TextControl
