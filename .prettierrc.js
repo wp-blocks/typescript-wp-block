@@ -5,6 +5,7 @@ const prettierConfig = require( '@wordpress/prettier-config' );
 module.exports = {
 	...prettierConfig,
 	proseWrap: 'never',
+	endOfLine: 'lf',
 	overrides: [
 		{
 			files: '*.{yml,yaml}',
