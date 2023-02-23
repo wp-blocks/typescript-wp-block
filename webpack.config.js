@@ -1,12 +1,13 @@
-const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 const path = require( 'path' );
+
+const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 
 module.exports = {
 	...defaultConfig,
 	entry: {
-		'boilerplate': path.resolve( process.cwd(), `src/index.tsx` ),
+		boilerplate: path.resolve( process.cwd(), `src/index.tsx` ),
 	},
-  devtool: 'inline-source-map',
+	devtool: 'inline-source-map',
 	module: {
 		rules: [
 			{

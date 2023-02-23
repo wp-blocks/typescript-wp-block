@@ -2,9 +2,9 @@
 import './style/style.scss';
 
 import { useBlockProps } from '@wordpress/block-editor';
-import { BlockSaveProps } from '@wordpress/blocks';
-import { TextDef } from './types';
+import type { BlockSaveProps } from '@wordpress/blocks';
 
+import { TextDef } from './types';
 /**
  * The save function defines the way in which the different attributes should be combined into the final markup, which is then serialized into post_content.
  *

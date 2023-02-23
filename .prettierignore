@@ -1,0 +1,8 @@
+.cache
+build
+build-module
+build-types
+coverage
+vendor
+
+**/*.md

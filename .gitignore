@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# The build directories
+build/
+build-types/
+
 # Coverage directory used by tools like istanbul
 coverage
 artifacts
