@@ -9,20 +9,20 @@ const eslintConfig = {
 eslintConfig.parserOptions = {
 	ecmaVersion: 6,
 	env: {
-    jest: true,
-    es6: true
-  },
+		jest: true,
+		es6: true,
+	},
 	babelOptions: {
 		presets: [
 			'@wordpress/babel-preset-default',
 			'@babel/preset-typescript',
 		],
-    globals: {
-      page: true,
-      browser: true,
-      context: true,
-      jestPuppeteer: true,
-    },
+	},
+	globals: {
+		page: true,
+		browser: true,
+		context: true,
+		jestPuppeteer: true,
 	},
 };
 
