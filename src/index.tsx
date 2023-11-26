@@ -11,7 +11,7 @@ import Save from './save';
 const jsonData = blockConfig;
 
 /** Registering the block with the name of the block and the attributes of the block. */
-registerBlockType( jsonData.name, {
+registerBlockType(jsonData.name, {
 	...jsonData,
 	/**
 	 * @see ./edit.js
@@ -38,4 +38,4 @@ registerBlockType( jsonData.name, {
 			default: '',
 		},
 	},
-} );
+});
