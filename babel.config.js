@@ -11,7 +11,7 @@ module.exports = ( api ) => {
 			[
 				'@wordpress/babel-plugin-makepot',
 				{
-					output: 'languages/search.pot',
+					output: 'languages/boilerplate.pot',
 				},
 			],
 		],
