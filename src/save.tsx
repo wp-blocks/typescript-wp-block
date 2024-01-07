@@ -8,15 +8,15 @@ import { TextDef } from './types';
 /**
  * The save function defines the way in which the different attributes should be combined into the final markup, which is then serialized into post_content.
  *
- * @param  props
- * @param  props.attributes - the block attributes
+ * @param    props
+ * @param    props.attributes - the block attributes
  * @function Object() { [native code] }
  */
-function Save( { attributes }: BlockSaveProps< TextDef > ): JSX.Element {
-	const blockProps = useBlockProps.save( {
+function Save({ attributes }: BlockSaveProps<TextDef>): JSX.Element {
+	const blockProps = useBlockProps.save({
 		className: 'block-boilerplate',
-	} );
-	return <div { ...blockProps }> { attributes.message }</div>;
+	});
+	return <div {...blockProps}> {attributes.message}</div>;
 }
 
 export default Save;

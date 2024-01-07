@@ -7,5 +7,13 @@ module.exports = ( api ) => {
 			'@babel/preset-typescript',
 			'@wordpress/babel-preset-default',
 		],
+		plugins: [
+			[
+				'@wordpress/babel-plugin-makepot',
+				{
+					output: 'languages/boilerplate.pot',
+				},
+			],
+		],
 	};
 };
