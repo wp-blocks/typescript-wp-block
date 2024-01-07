@@ -18,7 +18,7 @@
 clone the project into your plugin folder:
 
 ```shell
-git clone https://github.com/erikyo/typescript-wp-block.git
+git clone https://github.com/your-username/typescript-wp-block.git
 ```
 Then: 
 - Rename the plugin folder with the chosen plugin name slug

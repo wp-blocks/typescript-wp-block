@@ -6,12 +6,12 @@
 		"Erik Golinelli <erik@codekraft.it> (https://codekraft.it/)",
 		"John Hooks <bitmachina@outlook.com> (https://johnhooks.io/)"
 	],
-	"homepage": "https://github.com/erikyo/typescript-wp-block#readme",
+	"homepage": "https://github.com/wp-blocks/typescript-wp-block#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/erikyo/typescript-wp-block.git"
+		"url": "https://github.com/wp-blocks/typescript-wp-block.git"
 	},
-	"bugs": "https://github.com/erikyo/typescript-wp-block/issues",
+	"bugs": "https://github.com/wp-blocks/typescript-wp-block/issues",
 	"license": "GPL-2.0-or-later",
 	"main": "./build/boilerplate.js",
 	"typings": "./build/main.d.ts",
